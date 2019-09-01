@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'museosans';
+	src: url('../fonts/museosans-500.ttf');
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #eceff1;
+}
+
+#menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #66bb6a;
+	width: 100%;
+	height: 64px;
+	line-height: 32px;
+	font-family: 'museosans';
+	font-size: 16px;
+	color: #212121;
+}
+
+select {
+	width: 192px;
+	height: 32px;
+	line-height: 32px;
+	font-family: 'museosans';
+	margin-left: 16px;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 256px;
+	font-family: 'museosans';
+	line-height: 48px;
+    font-size: 32px;
+	color: #212121;
+	text-align: center;
+}
